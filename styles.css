@@ -12,3 +12,18 @@
 .floating-contact{background:#086a78}.floating-contact:hover{background:#103b50}
 @media(max-width:720px){.brand{gap:12px}.brand-logo{width:54px;height:54px}.brand-name small{font-size:.75rem;letter-spacing:.06em}.brand-name small span{letter-spacing:.04em}.footer-brand .brand-logo{width:48px;height:48px}}
 @media(max-width:380px){.brand{gap:8px}.brand-logo{width:42px;height:42px}.brand-name{font-size:.93rem}.menu-toggle{padding:8px 10px}}
+
+/* Atendimento presencial na Primavera Clínicas Psicologia. */
+.location{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:7%;align-items:center;border-top:1px solid var(--line)}
+.location-copy h2{margin-bottom:26px}.location-intro,.location-note{color:var(--muted)}
+.location-intro strong{font-weight:500;color:var(--ink)}
+.location address{font-style:normal;border-left:2px solid #7eb8be;padding-left:20px;margin:26px 0 18px}
+.location-note{font-size:.9rem;margin-bottom:26px}
+.location-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px 24px}
+.location-actions .button{text-align:center}
+.map-frame{min-width:0;background:var(--lagoon);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.map-frame iframe{display:block;width:100%;height:430px;border:0}
+.map-frame>a{display:block;padding:14px 18px;text-align:center;font-size:.875rem;text-decoration:underline;text-underline-offset:4px}
+.map-frame>a:hover{background:#c6e6e9}
+@media(min-width:721px) and (max-width:900px){.header nav{gap:13px;font-size:.85rem}.nav-contact{padding:10px 16px}}
+@media(max-width:720px){.location{grid-template-columns:1fr;gap:32px}.location-copy h2{font-size:2.5rem}.location-actions{flex-direction:column;align-items:stretch;gap:16px}.location-actions .text-link{align-self:flex-start}.map-frame iframe{height:320px}}
